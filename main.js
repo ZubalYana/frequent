@@ -3,3 +3,21 @@ $('.answer').hide(0);
 $('#plus1').click(function(){
     $('#answer1').slideToggle(300)
 })
+$('#plus2').click(function(){
+    $('#answer2').slideToggle(300)
+})
+$('#plus3').click(function(){
+    $('#answer3').slideToggle(300)
+})
+$('#plus4').click(function(){
+    $('#answer4').slideToggle(300)
+})
+$('#plus5').click(function(){
+    $('#answer5').slideToggle(300)
+})
+$('#plus5').click(function(){
+    $('#answer5').slideToggle(300)
+})
+$('#plus6').click(function(){
+    $('#answer6').slideToggle(300)
+})
