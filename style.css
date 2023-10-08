@@ -2,20 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Montserrat;
+    font-family: Open Sans;
 }
 .wrap{
     width: 100%;
     height: 100vh;
+
+
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px;
-    position: relative;
 }
 .QuestionsContainer{
     width: 65%;
     margin-top: 50px;
+    
+}
+.frequentQuestionsContainer{
+    padding: 60px;
 }
 h1{
     font-size: 48px;
@@ -57,4 +67,43 @@ p{
     width: 32px;
     z-index: 2;
     top: 50px;
+}
+.mainPage_logo{
+    width: 69px;
+    height: 73px;
+}
+.mainPage_header{
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 70px 0 70px;
+}
+.mainPage_ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    align-items: center;
+    height: 45px;
+    margin-right: 33px;
+}
+.mainPage_headerElements{
+    display: flex;
+}
+.mainPage_button{
+    width: 135px;
+    height: 45px;
+    background-color: #F7859C;
+    color: #fff;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+.mainPage_li{
+    font-size: 16px;
+    font-weight: 700;
 }
