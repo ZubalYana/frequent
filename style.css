@@ -424,9 +424,21 @@ p{
     width: 297px;
     height: 427px;
 }
-.ourRoadmap_RightPart{
-    display: flex;
-    justify-content: flex-end;
+.ourRoadmap_element_dec2{
+    position: absolute;
+    width: 202px;
+    height: 150px;
+    top: 200px;
+    right: 450px;
+    z-index: 9999;
+}
+.ourRoadmap_element_dec1{
+    width: 33px;
+    height: 36px;
+    position: absolute;
+    left: 710px;
+    top: -10px;
+    z-index: -234;
 }
 
 @media screen and (max-device-width: 500px) {
