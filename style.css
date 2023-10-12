@@ -492,7 +492,81 @@ p{
     top: 330px;
     z-index: 1;
 }
+.futer_mainPart{
+    width: 100%;
+    height: 380px;
+    background-color: #D3D4ED;
+    padding: 0px 240px 0px 240px;
+}
+.futer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
 
+}
+.futer_titleAndNavContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.futer_title{
+    font-size: 65px;
+    font-weight: 700;
+}
+.futer_navigation{
+    font-size: 18px;
+    font-weight: 700;
+    z-index: 1;
+    position: relative;
+}
+.futer_hr{
+    margin: 30px 0 25px 0;
+}
+.futer_socialMedia{
+    font-size: 18px;
+    font-weight: 400;
+}
+.futer_socialMedia_container{
+    display: flex;
+    width: 430px;
+    justify-content: space-between;
+}
+.futer_navElement{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.futer_SocialMediaAndNavContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.futer_secondaryInformation_El{
+    font-size: 14px;
+    font-weight: 400;
+}
+.futer_secondaryInformation{
+    width: 362px;
+    display: flex;
+    justify-content: space-between;
+}
+.futer_img{
+    width: 173px;
+    height: 213px;
+    position: absolute;
+    top: 230px;
+    left: 100px;
+}
+.futer_dec{
+    width: 34px;
+    height: 36px;
+    position: absolute;
+    right: 320px;
+    top: 380px;
+    z-index: 1;
+}
 @media screen and (max-device-width: 500px) {
     .meetOur_parts{
         flex-direction: column;
