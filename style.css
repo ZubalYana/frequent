@@ -567,6 +567,9 @@ p{
     top: 380px;
     z-index: 1;
 }
+.plus{
+    transition: transform 3s ease;
+}
 @media screen and (max-device-width: 500px) {
     .meetOur_parts{
         flex-direction: column;
@@ -658,6 +661,31 @@ p{
     }
     .mainPage_textContainer{
         margin-top: 30px;
+    }
+    .exclusiveContent_mainPart{
+        padding: 20px;
+    }
+    .exclusiveContent_dec{
+        top: 120px;
+    }
+    .exclusiveContent_personContainer{
+        flex-direction: column;
+    }
+    .exclusiveContent_personimg{
+        margin-top: 20px;
+    }
+    .ourRoadmap_element{
+        flex-direction: column;
+    }
+    .ourRoadmap_MiddlePart{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .ourRoadmap_MiddlePartPic{
+        width: 450px;
+        height: 404px;
     }
 
 
