@@ -639,11 +639,17 @@ p{
         margin-bottom: -20px;
     }
     .mainPage_circle1{
-        display: none;
+        width: 250px;
+        height: 250px;
+        top: 570px;
     }
     .mainPage_circle2{
-        display: none;
+        width: 250px;
+        height: 250px;
+        top: 450px;
+        left: 250px;
     }
+
     .mainPage{
         min-height: 125vh;
     }
@@ -670,6 +676,7 @@ p{
     }
     .exclusiveContent_personContainer{
         flex-direction: column;
+
     }
     .exclusiveContent_personimg{
         margin-top: 20px;
@@ -681,12 +688,113 @@ p{
         width: 100%;
         display: flex;
         justify-content: center;
-        margin-top: 20px;
+        align-items: center;
     }
     .ourRoadmap_MiddlePartPic{
         width: 450px;
         height: 404px;
     }
+    .ourRoadmap_MiddlePart_textContainer{
+        width: 380px;
+        margin-top: 0px;
+    }
+    .ourRoadmap_leftPart{
+        width: 500px;
+        padding-left: 20px;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 100px;
+    }
+    .ourRoadmap{
+        padding: 20px;
+    }
+    .ourRoadmap_element2{
+        margin-top: 30px;
+    }
+    .ourRoadmap_RightPart{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 130px;
+        margin-bottom: -100px;
+    }
+    .ourRoadmap_element_dec1{
+        left: 190px;
+        top: 10px;
+    }
+    .ourRoadmap_title{
+        width: 100%;
+        text-align: center;
+    }
+    .ourRoadmap_element_dec2{
+        left: 260px;
+        top: 200px;
+    }
+    .OurTeam{
+        margin-top: 500px;
+    }
+    .OurTeam_mainPart{
+        padding: 20px;
+        height: 3000px;
+    }
+    .OurTeam_peoplesContainer_row{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .OurTeam_personContainer{
+        margin-bottom: 30px;
+    }
+    .OurTeam_decoration{
+        top: 120px;
+        left: 210px;
+    }
+    .frequentQuestionsContainer{
+        padding: 20px;
+    }
+    .QuestionsContainer{
+        width: 100%;
+        position: relative;
+        z-index: 5;
+    }
+    .circles{
+        left: 200px;
+        z-index: 2;
+    }
+    .circle{
+        left: 220px;
+        top: 15px;
+    }
+    .mainPage_littleCircle{
+        left: 180px;
+        top: 110px;
+    }
+    .futer_mainPart{
+        height: 500px;
+        padding: 20px;
+    }
+    .futer_socialMedia_container{
+        flex-direction: column;
+    }
+    .futer_navContainer{
+        width: 160px;
+    }
+    .futer_img{
+        left: 130px;
+        top: 100px;
+        z-index: 6;
+    }
+    .futer_titleAndNavContainer{
+        position: relative;
+        z-index: 7;
+    }
+    .futer_dec{
+        left: 360px;
+        top: 260px;
+    }
+
+
 
 
 }
+
