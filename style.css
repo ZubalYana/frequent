@@ -570,6 +570,20 @@ p{
 .plus{
     transition: transform 3s ease;
 }
+.mainPage_circle{
+    animation: circleMove 3s linear infinite;
+}
+@keyframes circleMove {
+    0% {
+      transform: translate(-10%, -10%) translateY(20px);
+    }
+    50% {
+      transform: translate(-10%, -10%) translateX(20px);
+    }
+    100% {
+      transform: translate(-10%, -10%) translateY(20px);
+    }
+  }
 @media screen and (max-device-width: 500px) {
     .meetOur_parts{
         flex-direction: column;
